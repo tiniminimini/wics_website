@@ -1,0 +1,194 @@
+body{
+	font-family:"Arial",sans-serif; 
+	font-size:14pt; 
+	color:#828282;
+	background-color:#d7d7d7;
+}
+h1{text-align:left; font-weight:normal; /*color:teal;*/}
+h2{}
+h3{}
+ul{padding:0px; margin:0px;}
+
+.main{
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:40px;
+}
+
+.nav {
+	font-family:"Lucida Console", sans-serif;
+	margin-bottom: 50px;
+	border-bottom: 1px solid teal;
+}
+
+.nav ul li{
+	list-style: none;
+	display: inline;
+	margin: 2px;
+	text-decoration:none;
+	padding:5px;
+}
+
+.nav a:link{
+	color: #ADD8C7;
+	text-decoration:none;
+}
+
+.nav a:visited{
+	color: #ADD8C7;
+	text-decoration:none;
+}
+
+.nav a:hover{
+	color:#828282;
+}
+
+.nav a:active{
+	color:teal;
+	text-decoration:none;
+}
+
+.nav ul li a#active{
+	color:teal;
+	text-decoration:none;
+}
+
+.content{
+	width:80%;
+	margin-right:auto;
+	margin-left:auto;
+}
+
+.content a{
+	text-decoration: none;
+	color: #15317E;
+}
+
+.content a:visited{
+	color: #463E41;
+}
+
+.content a:hover{
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.home_image{
+	float:right;
+	margin-left:20px;
+	margin-bottom:20px;
+}
+
+.box_right{
+	float: right;
+	width: 30%;
+	color: #356F82;
+	border: 1px solid #356F82;
+	padding: 0 1% 0 1%;
+	/*padding: 1%;*/
+	margin: 1%;
+}
+
+.box_left{
+	float: left;
+	width: 15%;
+	color: #356F82;
+	/*border: 1px solid #808080;*/
+	padding: 0 1% 0 1%;
+	/*padding: 1%;*/
+	margin: 1%;
+}
+
+.footer{
+	padding: 5px;
+	background: #ADD8C7;
+	color: #fff;
+	width: 100%;
+	text-align: center;
+	font-family:"Lucida Console", sans-serif;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.footer a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.footer a:hover{
+	text-decoration: underline;
+}
+
+label {
+    display:block;
+    margin-top:20px;
+    letter-spacing:2px;
+}
+
+/* Centre the page */
+.body {
+    display:block;
+    margin:0 auto;
+    width:576px;
+}
+
+/* Centre the form within the page */
+form {
+    margin:0 auto;
+    width:459px;
+}
+
+/* Style the text boxes */
+input, textarea {
+	width:439px;
+	height:27px;
+	background:#efefef;
+	border:1px solid #dedede;
+	padding:10px;
+	margin-top:3px;
+	font-size:0.9em;
+	color:#3a3a3a;
+}
+
+textarea {
+	height:213px;
+	background:url(http://www.planwallpaper.com/static/images/518169-backgrounds.jpg)
+	right no-repeat #efefef;
+}
+
+input, textarea {
+    width:439px;
+    height:27px;
+    background:#efefef;
+    border:1px solid #dedede;
+    padding:10px;
+    margin-top:3px;
+    font-size:0.9em;
+    color:#3a3a3a;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+}
+
+input:focus, textarea:focus {
+    border:1px solid #97d6eb;
+}
+
+#submit
+{
+padding: 10px 15px 11px !important;
+font-size: 18px !important;
+background-color: #57d6c7;
+font-weight: bold;
+text-shadow: 1px 1px #57D6C7;
+color: #ffffff;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border: 1px solid #57D6C7;
+cursor: pointer;
+box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+-moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+}
