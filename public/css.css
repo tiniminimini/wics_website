@@ -2,7 +2,7 @@ body{
 	font-family:"Arial",sans-serif; 
 	font-size:14pt; 
 	color:#828282;
-	background-color:#d7d7d7;
+	background-color:#F9EDB2;
 }
 h1{text-align:left; font-weight:normal; /*color:teal;*/}
 h2{}
@@ -102,7 +102,7 @@ ul{padding:0px; margin:0px;}
 
 .footer{
 	padding: 5px;
-	background: #ADD8C7;
+	background: #F57979;
 	color: #fff;
 	width: 100%;
 	text-align: center;
