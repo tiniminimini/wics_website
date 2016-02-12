@@ -4,7 +4,6 @@ var path = require('path');
 var app = express();
 var server = http.Server(app);
 var bodyParser = require('body-parser');
-var app     = express();
 
 var port = process.env.PORT || 12345;
 
@@ -16,7 +15,7 @@ app.post('/myaction', function(req, res) {
   res.send('You sent the name "' + req.body.name + '".');
 });
 
-app.use(express.static(path.join(__dirname, '/public')));
+app.use(express.static(path.join(__dirname, 'public/')));
 
 server.listen(port, function(){
 	console.log('App is listening on port ' + port);
